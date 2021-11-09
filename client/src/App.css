@@ -1,0 +1,152 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, q, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  font-family: Nunito; 
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top:-1px;
+  background-color: #fff;
+  height: 50px;
+}
+
+header img {
+  width: 50px;
+  float: right;
+  margin-top: 5px;
+}
+
+main {
+  height: calc(100% - 50px - 50px - 25px);
+  padding-bottom: 25px;
+  padding-top: 50px;
+}
+
+main::after, .home a::after, .clear::after, .form label::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn {
+  background-color: crimson;
+  color: #fff;
+  display: block;
+  width: 140px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  border: none;
+  margin: 5px;
+  height: 40px;
+}
+
+.home {
+  margin: 20px auto;
+  width: 80%;  
+}
+
+.home a {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+}
+
+.home img {
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  width: 80%;    
+}
+
+
+.product {
+  border: 1px solid red;
+  width: 30%;
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  display: block;
+}
+
+.product h2 {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+.product img {
+  width: 150px;
+  float: left;
+  margin: 5px;
+}
+
+.product p {
+  color: #000;
+}
+
+.form {
+  text-align: center;
+}
+
+.form label {
+  font-size: 16px;
+}
+
+.form input {
+  border: 1px solid crimson;
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  padding: 3px 5px; 
+}
+
+.form textarea {
+  border: 1px solid crimson;
+  width: 500px;
+  height: 150px;
+}
+
+.form .btnForm {
+  background-color: crimson;
+  color: #fff;
+  width: 140px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  border-top: 1px solid crimson;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  clear: both;
+}
